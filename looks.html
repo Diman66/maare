@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAARE</title>
+  <script type="module" crossorigin src="/assets/js/script.js"></script>
+  <link rel="stylesheet" href="/assets/css/script.css">
+</head>
+<body class="preload">
+
+
+     <!-- шапка -->
+     <header class="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <button aria-label="menu" class="header__btn-burger">
+                    <span></span>
+                </button>
+                <div class="header__logo">
+                    <a href="/">
+                        <img src="/assets/img/Logo.svg" alt="logo">
+                    </a>
+                    
+                </div>
+                <nav class="header__menu mobile">
+                    <ul class="main-menu">
+                        <li><a href="/world.html">мир бренда</a><span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M16.0391 6.77936L10.0003 12.666L3.96138 6.77936C3.85349 6.67398 3.70865 6.61498 3.55782 6.61498C3.407 6.61498 3.26216 6.67398 3.15427 6.77936C3.10202 6.83055 3.06052 6.89165 3.03219 6.95908C3.00385 7.0265 2.98926 7.09891 2.98926 7.17205C2.98926 7.24519 3.00385 7.31759 3.03219 7.38502C3.06052 7.45245 3.10202 7.51355 3.15427 7.56473L9.57857 13.8283C9.69139 13.9383 9.84271 13.9999 10.0003 13.9999C10.1578 13.9999 10.3091 13.9383 10.4219 13.8283L16.8462 7.56594C16.8989 7.51472 16.9407 7.45347 16.9692 7.38582C16.9978 7.31817 17.0125 7.24548 17.0125 7.17205C17.0125 7.09862 16.9978 7.02593 16.9692 6.95828C16.9407 6.89063 16.8989 6.82938 16.8462 6.77816C16.7384 6.67277 16.5935 6.61377 16.4427 6.61377C16.2919 6.61377 16.147 6.67277 16.0391 6.77816V6.77936Z" />
+                            </svg></span>
+                            <ul class="sub-menu">
+                                <li>
+                                    <a href="/privilege.html">Преимущества</a>
+                                </li>
+                                <li>
+                                    <a href="./delivery.html">Доставка</a>
+                                </li>
+                                <li>
+                                    <a href="./community.html">Наше комьюнити</a>
+                                </li>
+                                <li>
+                                    <a href="./collab.html">Коллаборации</a>
+                                </li>
+                                <li>
+                                    <a href="./initials.html">Вышивка инициалов</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="catalog-clone"><a href="./catalog.html">каталог</a>
+                            <ul class="sub-menu ">
+                                <li>
+                                    <a href="./catalog.html">Все</a>
+                                </li>
+                                <li>
+                                    <a href="./catalog.html">Куртки</a>
+                                </li>
+                                <li>
+                                    <a href="./catalog.html">Жакеты</a>
+                                </li>
+                                <li>
+                                    <a href="./catalog.html">Блузки</a>
+                                </li>
+                                <li>
+                                    <a href="./catalog.html">Платья</a>
+                                </li>
+                                <li>
+                                    <a href="./catalog.html">Юбки</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="./looks.html">готовые образы</a></li>
+                        <li><a href="./contacts.html">контакты</a></li>
+                    </ul>
+                    <div class="mobile__menu-footer">
+                        <div class="mobile__contacts-phone"><a href="tel:+74955103066">8 495 510 30 66</a></div>
+                        <div class="mobile__contacts-mail"><a href="mailto:info@maaree.ru">info@maaree.ru</a></div>
+                        <div class="mobile__policy"><a href="#">Политика конфиденциальности</a></div>
+                        <div class="mobile__made">
+                            <span>Сделано в</span>
+                            <img src="/assets/img/logo_m416.svg" alt="m416">
+                        </div>
+                    </div>
+                   
+                </nav>
+                <div class="header__location">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M12.896 11.104L13.541 16.268L18.06 5.94L7.732 10.46L12.896 11.104ZM12 12L13 20L20 4L4 11L12 12Z" />
+                    </svg>
+                    <span>Москва</span>
+                </div>
+                <a href="./cart.html" class="header__btn-cart">
+                    <img src="/assets/img/cart.svg" alt="корзина">
+                    <span class="cart-icon">1</span>
+                </a>
+            </div>
+        </div>
+        <!-- меню каталога -->
+        <div class="menu-catalog">
+            <div class="container">
+               <div class="menu-catalog__wrapper">
+                    <div class="menu-catalog__header">
+                        <div class="menu-catalog__title">каталог</div>
+                        <button class="btnClose-square" data-btnClose="close" data-close="menu-catalog"></button>
+                    </div>
+                    <ul class="menu-catalog__list">
+                        <li><a href=""></a></li>
+                    </ul>
+                    <a href="./catalog.html" class="menu-catalog__link-catalog">Перейти в каталог</a>
+                    <div class="menu-catalog__links">
+                        <div class="menu-catalog__link-community">
+                            <a href="./community.html" ><span>Комьюнити</span></a>
+                        </div>
+                        <div class="menu-catalog__link-new">
+                            <a href="./catalog.html"><span>Новинки от Maare</span></a>
+                        </div>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /меню каталога -->
+
+        <!-- корзина -->
+        <div class="cart-popup">
+            <div class="container">
+                <div class="cart-popup__wrapper">
+                    <div class="cart-popup__header">
+                        <div class="cart-popup__title">корзина</div>
+                        <div class="btnClose-square" data-btnClose="close" data-close="cart-popup"></div>
+                    </div>
+                    <div class="cart-popup__body">
+                        <!-- товар -->
+                        <div class="cart-item">
+                            <div class="cart-item__img">
+                                <img src="/assets/img/cart.webp" alt="">
+                            </div>
+                        
+                                <div class="cart-item__name">Loro Piana</div>
+                                <div class="cart-item__amount">
+                                    <div aria-label="Minus" class="cart-item__amount-min" onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M6 11H7H17H18V13H17H7H6V11Z" />
+                                        </svg>
+                                    </div>
+                                    <input id="product1-amount" name="product1" type="number" value="2" aria-label="amount">
+                                    <div aria-label="Plus" class="cart-item__amount-plus" onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M13 7V6H11V7V11H7H6V13H7H11V17V18H13V17V13H17H18V11H17H13V7Z" />
+                                        </svg>
+                                    </div>
+                                </div>
+                                
+                                <div class="cart-item__cost">
+                                    <div class="cart-item__cost-current">8 910 000 ₽</div>
+                                    <div class="cart-item__cost-old">9 910 000 ₽</div>
+                                </div>
+                                <div class="btnClose-square"></div>
+              
+                                <div class="cart-item__descr">Кашемировое пальто с меховой отделкой</div>
+                                <div class="cart-item__options">
+                                    <div class="cart-item__color">
+                                        <div class="cart-item__color-caption">Цвет:</div>
+                                        <div class="cart-item__color-value">черный <span></span></div>
+                                    </div>
+                                    <div class="cart-item__size">
+                                        <div class="cart-item__size-caption">Размер:</div>
+                                        <div class="cart-item__size-value">XXL(48)</div>
+                                    </div>
+                                    <div class="cart-item__initials">
+                                        <label for="switch1" class="switch">
+                                            Вышивка:
+                                            <input name="check1" type="checkbox" role="switch" id="switch1">
+                                        </label>
+                                        <label for="cart-initial1" class="initial-input">
+                                            Инициалы:
+                                            <input name="cart-initial1" id="cart-initial1" class="cart-item__initial" value="В.Н." readonly>
+                                        </label>
+                                        <button aria-label="Edit" class="cart-item__edit" data-btnEdit="edit" data-edit="cart-initial1">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                                <path d="M13.2603 3.60022L5.05034 12.2902C4.74034 12.6202 4.44034 13.2702 4.38034 13.7202L4.01034 16.9602C3.88034 18.1302 4.72034 18.9302 5.88034 18.7302L9.10034 18.1802C9.55034 18.1002 10.1803 17.7702 10.4903 17.4302L18.7003 8.74022C20.1203 7.24022 20.7603 5.53022 18.5503 3.44022C16.3503 1.37022 14.6803 2.10022 13.2603 3.60022Z" stroke="#009DBE" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                <path d="M11.8896 5.0498C12.3196 7.8098 14.5596 9.9198 17.3396 10.1998" stroke="#009DBE" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                <path d="M3 22H21" stroke="#009DBE" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                         
+                        </div>
+                        <!-- /товар -->
+
+                         <!-- товар -->
+                        <div class="cart-item">
+                            <div class="cart-item__img">
+                                <img src="/assets/img/cart.webp" alt="">
+                            </div>
+                           
+                                <div class="cart-item__name">Loro Piana</div>
+                                <div class="cart-item__amount">
+                                    <div aria-label="Minus" class="cart-item__amount-min" data-btnAmount="minus">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M6 11H7H17H18V13H17H7H6V11Z" />
+                                        </svg>
+                                    </div>
+                                    <input id="product2-amount" name="product2" type="number" value="2" aria-label="amount">
+                                    <div aria-label="Plus" class="cart-item__amount-plus" data-btnAmount="plus">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M13 7V6H11V7V11H7H6V13H7H11V17V18H13V17V13H17H18V11H17H13V7Z" />
+                                        </svg>
+                                    </div>
+                                </div>
+                                
+                                <div class="cart-item__cost">
+                                    <div class="cart-item__cost-current">8 910 000 ₽</div>
+                                    <div class="cart-item__cost-old">9 910 000 ₽</div>
+                                </div>
+                                <div class="btnClose-square"></div>
+                          
+                                <div class="cart-item__descr">Кашемировое пальто с меховой отделкой</div>
+                                <div class="cart-item__options">
+                                    <div class="cart-item__color">
+                                        <div class="cart-item__color-caption">Цвет:</div>
+                                        <div class="cart-item__color-value">черный <span></span></div>
+                                    </div>
+                                    <div class="cart-item__size">
+                                        <div class="cart-item__size-caption">Размер:</div>
+                                        <div class="cart-item__size-value">XXL(48)</div>
+                                    </div>
+                                    <div class="cart-item__initials">
+                                        <label for="switch2" class="switch">
+                                            Вышивка:
+                                            <input name="check2" type="checkbox" role="switch" id="switch2">
+                                        </label>
+                                        <label for="cart-initial2" class="initial-input">
+                                            Инициалы:
+                                            <input name="cart-initial2" id="cart-initial2" class="cart-item__initial" value="В.Н." readonly>
+                                        </label>
+                                        <button aria-label="Edit" class="cart-item__edit" data-btnEdit="edit" data-edit="cart-initial2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                                <path d="M13.2603 3.60022L5.05034 12.2902C4.74034 12.6202 4.44034 13.2702 4.38034 13.7202L4.01034 16.9602C3.88034 18.1302 4.72034 18.9302 5.88034 18.7302L9.10034 18.1802C9.55034 18.1002 10.1803 17.7702 10.4903 17.4302L18.7003 8.74022C20.1203 7.24022 20.7603 5.53022 18.5503 3.44022C16.3503 1.37022 14.6803 2.10022 13.2603 3.60022Z" stroke="#009DBE" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                <path d="M11.8896 5.0498C12.3196 7.8098 14.5596 9.9198 17.3396 10.1998" stroke="#009DBE" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                <path d="M3 22H21" stroke="#009DBE" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                           
+                        </div>
+                         <!-- товар -->
+                    </div>
+                    <div class="cart-popup__footer">
+                        <div class="cart-popup__total">
+                            <div class="cart-popup__amount">
+                                <span>всего товаров:</span>
+                                25
+                            </div>
+                            <div class="cart-popup__general-cost">
+                                <span>Стоимость:</span>
+                                135 000 Руб.
+                            </div>
+                        </div>
+                        <a href="./cart.html" class="cart-popup__link-cart">Перейти в корзину</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- /корзина -->
+
+    </header>
+    <!-- /шапка -->
+    
+    <div class="content">
+    
+        <main>
+            <section class="looks-main mb-80px">
+                <div class="container">
+                    <div class="main-hero__wrapper">
+                        <div class="looks-main__box">
+                            
+                                
+                            <h1 class="title parallax">
+                                MAARE
+                                <!-- <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 100% 1 1" >
+                                    <clipPath id="text">
+                                        <text x="50%" y="100%" text-anchor="middle">MAARE</text>
+                                    </clipPath> -->
+                                    <!-- <mask id="text">
+                                        <text x="50%" y="100%" text-anchor="middle" >MAARE</text>
+                                    </mask> -->
+                                    <!-- <image mask="url(#text)" xlink:href="../img/diffuse.webp" width="200" height="300" /> -->
+                                <!-- </svg> -->
+                            </h1>
+                            <div>
+                                <div class="line-gradient"></div>
+                                <h2 class="subtitle mb-32px">Готовые образы</h2>
+                            </div>
+                            <div class="looks-main__descr">Стилисты создали для вас интересные образы,<br> 
+                                отражающие вашу неповторимость</div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+           <div class="container-full">
+                <section class="ticker mb-140px">
+                    <div class="ticker__back">LOOKS</div>
+                    <h2 class="ticker__title">maare</h2>   
+                </section>
+        
+               <section class="looks-products mb-80px">
+                    <div class="container">
+                        <div class="looks-products__wrapper">
+                            <div class="looks-products__header mb-32px">
+                                <h2 class="second-title">Готовые образы с изделием</h2>
+                                <div class="category-filter slider">
+                                    <ul class="category-filter__list swiper-wrapper">
+                                        <li class="active swiper-slide"><a href="#">Все</a></li>
+                                        <li class="swiper-slide"><a href="#">Повседневные</a></li>
+                                        <li class="swiper-slide"><a href="#">Деловые</a></li>
+                                        <li class="swiper-slide"><a href="#">Романтика</a></li>
+                                        <li class="swiper-slide"><a href="#">Другое</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="looks-products__body mb-32px">
+        
+                                <a href="./look.html" class="looks-card">
+                                    <div class="looks-card__caption">Повседневный</div>
+                                    <div class="looks-card__img">
+                                        <img src="/assets/img/category_1.webp" alt="жакет">
+                                        <span class="looks-card__label">TREND</span>
+                                    </div>
+                                    <footer class="looks-card__footer">
+                                        <div class="looks-card__name">Наименование образа</div>  
+                                        <div class="looks-card__descr">Описание образа</div>
+                                        <div class="looks-card__link">Детали образа
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.02344 3.02432C7.07652 2.97111 7.13958 2.92889 7.209 2.90008C7.27843 2.87127 7.35285 2.85645 7.42801 2.85645C7.50318 2.85645 7.5776 2.87127 7.64702 2.90008C7.71645 2.92889 7.7795 2.97111 7.83259 3.02432L12.8074 8.00032L7.83259 12.9763C7.72529 13.0836 7.57976 13.1439 7.42801 13.1439C7.27627 13.1439 7.13074 13.0836 7.02344 12.9763C6.91614 12.869 6.85586 12.7235 6.85586 12.5718C6.85586 12.42 6.91614 12.2745 7.02344 12.1672L10.62 8.57175H2.85658C2.70503 8.57175 2.55969 8.51155 2.45252 8.40439C2.34536 8.29722 2.28516 8.15188 2.28516 8.00032C2.28516 7.84877 2.34536 7.70343 2.45252 7.59626C2.55969 7.4891 2.70503 7.4289 2.85658 7.4289H10.62L7.02344 3.83347C6.97023 3.78039 6.92801 3.71733 6.8992 3.64791C6.87039 3.57848 6.85556 3.50406 6.85556 3.4289C6.85556 3.35373 6.87039 3.27931 6.8992 3.20989C6.92801 3.14046 6.97023 3.0774 7.02344 3.02432Z" />
+                                            </svg>
+                                        </div>
+                                    </footer>
+                                </a>
+        
+                                <a href="./look.html" class="looks-card">
+                                    <div class="looks-card__caption">Романтика</div>
+                                    <div class="looks-card__img">
+                                        <img src="/assets/img/category_2.webp" alt="жакет">
+                                        
+                                    </div>
+                                    <footer class="looks-card__footer">
+                                        <div class="looks-card__name">Наименование образа</div>  
+                                        <div class="looks-card__descr">Описание образа</div>
+                                        <div class="looks-card__link">Детали образа
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.02344 3.02432C7.07652 2.97111 7.13958 2.92889 7.209 2.90008C7.27843 2.87127 7.35285 2.85645 7.42801 2.85645C7.50318 2.85645 7.5776 2.87127 7.64702 2.90008C7.71645 2.92889 7.7795 2.97111 7.83259 3.02432L12.8074 8.00032L7.83259 12.9763C7.72529 13.0836 7.57976 13.1439 7.42801 13.1439C7.27627 13.1439 7.13074 13.0836 7.02344 12.9763C6.91614 12.869 6.85586 12.7235 6.85586 12.5718C6.85586 12.42 6.91614 12.2745 7.02344 12.1672L10.62 8.57175H2.85658C2.70503 8.57175 2.55969 8.51155 2.45252 8.40439C2.34536 8.29722 2.28516 8.15188 2.28516 8.00032C2.28516 7.84877 2.34536 7.70343 2.45252 7.59626C2.55969 7.4891 2.70503 7.4289 2.85658 7.4289H10.62L7.02344 3.83347C6.97023 3.78039 6.92801 3.71733 6.8992 3.64791C6.87039 3.57848 6.85556 3.50406 6.85556 3.4289C6.85556 3.35373 6.87039 3.27931 6.8992 3.20989C6.92801 3.14046 6.97023 3.0774 7.02344 3.02432Z" />
+                                            </svg>
+                                        </div>
+                                    </footer>
+                                </a>
+                                
+                                <a href="./look.html" class="looks-card">
+                                    <div class="looks-card__caption">Деловой</div>
+                                    <div class="looks-card__img">
+                                        <img src="/assets/img/category_3.webp" alt="жакет">
+                                        
+                                    </div>
+                                    <footer class="looks-card__footer">
+                                        <div class="looks-card__name">Наименование образа</div>  
+                                        <div class="looks-card__descr">Описание образа</div>
+                                        <div class="looks-card__link">Детали образа
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.02344 3.02432C7.07652 2.97111 7.13958 2.92889 7.209 2.90008C7.27843 2.87127 7.35285 2.85645 7.42801 2.85645C7.50318 2.85645 7.5776 2.87127 7.64702 2.90008C7.71645 2.92889 7.7795 2.97111 7.83259 3.02432L12.8074 8.00032L7.83259 12.9763C7.72529 13.0836 7.57976 13.1439 7.42801 13.1439C7.27627 13.1439 7.13074 13.0836 7.02344 12.9763C6.91614 12.869 6.85586 12.7235 6.85586 12.5718C6.85586 12.42 6.91614 12.2745 7.02344 12.1672L10.62 8.57175H2.85658C2.70503 8.57175 2.55969 8.51155 2.45252 8.40439C2.34536 8.29722 2.28516 8.15188 2.28516 8.00032C2.28516 7.84877 2.34536 7.70343 2.45252 7.59626C2.55969 7.4891 2.70503 7.4289 2.85658 7.4289H10.62L7.02344 3.83347C6.97023 3.78039 6.92801 3.71733 6.8992 3.64791C6.87039 3.57848 6.85556 3.50406 6.85556 3.4289C6.85556 3.35373 6.87039 3.27931 6.8992 3.20989C6.92801 3.14046 6.97023 3.0774 7.02344 3.02432Z" />
+                                            </svg>
+                                        </div>
+                                    </footer>
+                                </a>
+        
+                                <a href="./look.html" class="looks-card">
+                                    <div class="looks-card__caption">Деловой</div>
+                                    <div class="looks-card__img">
+                                        <img src="/assets/img/category_3.webp" alt="жакет">
+                                        
+                                    </div>
+                                    <footer class="looks-card__footer">
+                                        <div class="looks-card__name">Наименование образа</div>  
+                                        <div class="looks-card__descr">Описание образа</div>
+                                        <div class="looks-card__link">Детали образа
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.02344 3.02432C7.07652 2.97111 7.13958 2.92889 7.209 2.90008C7.27843 2.87127 7.35285 2.85645 7.42801 2.85645C7.50318 2.85645 7.5776 2.87127 7.64702 2.90008C7.71645 2.92889 7.7795 2.97111 7.83259 3.02432L12.8074 8.00032L7.83259 12.9763C7.72529 13.0836 7.57976 13.1439 7.42801 13.1439C7.27627 13.1439 7.13074 13.0836 7.02344 12.9763C6.91614 12.869 6.85586 12.7235 6.85586 12.5718C6.85586 12.42 6.91614 12.2745 7.02344 12.1672L10.62 8.57175H2.85658C2.70503 8.57175 2.55969 8.51155 2.45252 8.40439C2.34536 8.29722 2.28516 8.15188 2.28516 8.00032C2.28516 7.84877 2.34536 7.70343 2.45252 7.59626C2.55969 7.4891 2.70503 7.4289 2.85658 7.4289H10.62L7.02344 3.83347C6.97023 3.78039 6.92801 3.71733 6.8992 3.64791C6.87039 3.57848 6.85556 3.50406 6.85556 3.4289C6.85556 3.35373 6.87039 3.27931 6.8992 3.20989C6.92801 3.14046 6.97023 3.0774 7.02344 3.02432Z" />
+                                            </svg>
+                                        </div>
+                                    </footer>
+                                </a>
+        
+                                <a href="./look.html" class="looks-card">
+                                    <div class="looks-card__caption">Повседневный</div>
+                                    <div class="looks-card__img">
+                                        <img src="/assets/img/category_1.webp" alt="жакет">
+                                        <span class="looks-card__label">TREND</span>
+                                    </div>
+                                    <footer class="looks-card__footer">
+                                        <div class="looks-card__name">Наименование образа</div>  
+                                        <div class="looks-card__descr">Описание образа</div>
+                                        <div class="looks-card__link">Детали образа
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.02344 3.02432C7.07652 2.97111 7.13958 2.92889 7.209 2.90008C7.27843 2.87127 7.35285 2.85645 7.42801 2.85645C7.50318 2.85645 7.5776 2.87127 7.64702 2.90008C7.71645 2.92889 7.7795 2.97111 7.83259 3.02432L12.8074 8.00032L7.83259 12.9763C7.72529 13.0836 7.57976 13.1439 7.42801 13.1439C7.27627 13.1439 7.13074 13.0836 7.02344 12.9763C6.91614 12.869 6.85586 12.7235 6.85586 12.5718C6.85586 12.42 6.91614 12.2745 7.02344 12.1672L10.62 8.57175H2.85658C2.70503 8.57175 2.55969 8.51155 2.45252 8.40439C2.34536 8.29722 2.28516 8.15188 2.28516 8.00032C2.28516 7.84877 2.34536 7.70343 2.45252 7.59626C2.55969 7.4891 2.70503 7.4289 2.85658 7.4289H10.62L7.02344 3.83347C6.97023 3.78039 6.92801 3.71733 6.8992 3.64791C6.87039 3.57848 6.85556 3.50406 6.85556 3.4289C6.85556 3.35373 6.87039 3.27931 6.8992 3.20989C6.92801 3.14046 6.97023 3.0774 7.02344 3.02432Z" />
+                                            </svg>
+                                        </div>
+                                    </footer>
+                                </a>
+        
+                                <a href="./look.html" class="looks-card">
+                                    <div class="looks-card__caption">Романтика</div>
+                                    <div class="looks-card__img">
+                                        <img src="/assets/img/category_2.webp" alt="жакет">
+                                        
+                                    </div>
+                                    <footer class="looks-card__footer">
+                                        <div class="looks-card__name">Наименование образа</div>  
+                                        <div class="looks-card__descr">Описание образа</div>
+                                        <div class="looks-card__link">Детали образа
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.02344 3.02432C7.07652 2.97111 7.13958 2.92889 7.209 2.90008C7.27843 2.87127 7.35285 2.85645 7.42801 2.85645C7.50318 2.85645 7.5776 2.87127 7.64702 2.90008C7.71645 2.92889 7.7795 2.97111 7.83259 3.02432L12.8074 8.00032L7.83259 12.9763C7.72529 13.0836 7.57976 13.1439 7.42801 13.1439C7.27627 13.1439 7.13074 13.0836 7.02344 12.9763C6.91614 12.869 6.85586 12.7235 6.85586 12.5718C6.85586 12.42 6.91614 12.2745 7.02344 12.1672L10.62 8.57175H2.85658C2.70503 8.57175 2.55969 8.51155 2.45252 8.40439C2.34536 8.29722 2.28516 8.15188 2.28516 8.00032C2.28516 7.84877 2.34536 7.70343 2.45252 7.59626C2.55969 7.4891 2.70503 7.4289 2.85658 7.4289H10.62L7.02344 3.83347C6.97023 3.78039 6.92801 3.71733 6.8992 3.64791C6.87039 3.57848 6.85556 3.50406 6.85556 3.4289C6.85556 3.35373 6.87039 3.27931 6.8992 3.20989C6.92801 3.14046 6.97023 3.0774 7.02344 3.02432Z" />
+                                            </svg>
+                                        </div>
+                                    </footer>
+                                </a>
+        
+                                <a href="./look.html" class="looks-card">
+                                    <div class="looks-card__caption">Романтика</div>
+                                    <div class="looks-card__img">
+                                        <img src="/assets/img/category_2.webp" alt="жакет">
+                                        
+                                    </div>
+                                    <footer class="looks-card__footer">
+                                        <div class="looks-card__name">Наименование образа</div>  
+                                        <div class="looks-card__descr">Описание образа</div>
+                                        <div class="looks-card__link">Детали образа
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.02344 3.02432C7.07652 2.97111 7.13958 2.92889 7.209 2.90008C7.27843 2.87127 7.35285 2.85645 7.42801 2.85645C7.50318 2.85645 7.5776 2.87127 7.64702 2.90008C7.71645 2.92889 7.7795 2.97111 7.83259 3.02432L12.8074 8.00032L7.83259 12.9763C7.72529 13.0836 7.57976 13.1439 7.42801 13.1439C7.27627 13.1439 7.13074 13.0836 7.02344 12.9763C6.91614 12.869 6.85586 12.7235 6.85586 12.5718C6.85586 12.42 6.91614 12.2745 7.02344 12.1672L10.62 8.57175H2.85658C2.70503 8.57175 2.55969 8.51155 2.45252 8.40439C2.34536 8.29722 2.28516 8.15188 2.28516 8.00032C2.28516 7.84877 2.34536 7.70343 2.45252 7.59626C2.55969 7.4891 2.70503 7.4289 2.85658 7.4289H10.62L7.02344 3.83347C6.97023 3.78039 6.92801 3.71733 6.8992 3.64791C6.87039 3.57848 6.85556 3.50406 6.85556 3.4289C6.85556 3.35373 6.87039 3.27931 6.8992 3.20989C6.92801 3.14046 6.97023 3.0774 7.02344 3.02432Z" />
+                                            </svg>
+                                        </div>
+                                    </footer>
+                                </a>
+        
+                                <a href="./look.html" class="looks-card">
+                                    <div class="looks-card__caption">Деловой</div>
+                                    <div class="looks-card__img">
+                                        <img src="/assets/img/category_3.webp" alt="жакет">
+                                        
+                                    </div>
+                                    <footer class="looks-card__footer">
+                                        <div class="looks-card__name">Наименование образа</div>  
+                                        <div class="looks-card__descr">Описание образа</div>
+                                        <div class="looks-card__link">Детали образа
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.02344 3.02432C7.07652 2.97111 7.13958 2.92889 7.209 2.90008C7.27843 2.87127 7.35285 2.85645 7.42801 2.85645C7.50318 2.85645 7.5776 2.87127 7.64702 2.90008C7.71645 2.92889 7.7795 2.97111 7.83259 3.02432L12.8074 8.00032L7.83259 12.9763C7.72529 13.0836 7.57976 13.1439 7.42801 13.1439C7.27627 13.1439 7.13074 13.0836 7.02344 12.9763C6.91614 12.869 6.85586 12.7235 6.85586 12.5718C6.85586 12.42 6.91614 12.2745 7.02344 12.1672L10.62 8.57175H2.85658C2.70503 8.57175 2.55969 8.51155 2.45252 8.40439C2.34536 8.29722 2.28516 8.15188 2.28516 8.00032C2.28516 7.84877 2.34536 7.70343 2.45252 7.59626C2.55969 7.4891 2.70503 7.4289 2.85658 7.4289H10.62L7.02344 3.83347C6.97023 3.78039 6.92801 3.71733 6.8992 3.64791C6.87039 3.57848 6.85556 3.50406 6.85556 3.4289C6.85556 3.35373 6.87039 3.27931 6.8992 3.20989C6.92801 3.14046 6.97023 3.0774 7.02344 3.02432Z" />
+                                            </svg>
+                                        </div>
+                                    </footer>
+                                </a>
+        
+                                <a href="./look.html" class="looks-card">
+                                    <div class="looks-card__caption">Повседневный</div>
+                                    <div class="looks-card__img">
+                                        <img src="/assets/img/category_1.webp" alt="жакет">
+                                        <span class="looks-card__label">TREND</span>
+                                    </div>
+                                    <footer class="looks-card__footer">
+                                        <div class="looks-card__name">Наименование образа</div>  
+                                        <div class="looks-card__descr">Описание образа</div>
+                                        <div class="looks-card__link">Детали образа
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.02344 3.02432C7.07652 2.97111 7.13958 2.92889 7.209 2.90008C7.27843 2.87127 7.35285 2.85645 7.42801 2.85645C7.50318 2.85645 7.5776 2.87127 7.64702 2.90008C7.71645 2.92889 7.7795 2.97111 7.83259 3.02432L12.8074 8.00032L7.83259 12.9763C7.72529 13.0836 7.57976 13.1439 7.42801 13.1439C7.27627 13.1439 7.13074 13.0836 7.02344 12.9763C6.91614 12.869 6.85586 12.7235 6.85586 12.5718C6.85586 12.42 6.91614 12.2745 7.02344 12.1672L10.62 8.57175H2.85658C2.70503 8.57175 2.55969 8.51155 2.45252 8.40439C2.34536 8.29722 2.28516 8.15188 2.28516 8.00032C2.28516 7.84877 2.34536 7.70343 2.45252 7.59626C2.55969 7.4891 2.70503 7.4289 2.85658 7.4289H10.62L7.02344 3.83347C6.97023 3.78039 6.92801 3.71733 6.8992 3.64791C6.87039 3.57848 6.85556 3.50406 6.85556 3.4289C6.85556 3.35373 6.87039 3.27931 6.8992 3.20989C6.92801 3.14046 6.97023 3.0774 7.02344 3.02432Z" />
+                                            </svg>
+                                        </div>
+                                    </footer>
+                                </a>
+                                
+                            </div>
+                            <div class="looks-products__footer">
+                                <button class="btn-more">Показать ещё <span class="text-opacity50">(7)</span></button>
+                            </div>
+                        </div>
+                    </div>
+               </section>
+        
+                <section class="products mb-140px">
+                    <div class="container">
+                        <div class="products_wrapper">
+                            <header class="products__header pb-16px mb-32px">
+                                <h3 class="products__category">Сейчас в тренде</h3>
+                                <a href="./catalog.html" class="products__category-link">Смотреть все
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.02442 3.02384C7.0775 2.97062 7.14056 2.9284 7.20998 2.89959C7.2794 2.87079 7.35383 2.85596 7.42899 2.85596C7.50415 2.85596 7.57858 2.87079 7.648 2.89959C7.71742 2.9284 7.78048 2.97062 7.83356 3.02384L12.8084 7.99984L7.83356 12.9758C7.72626 13.0831 7.58073 13.1434 7.42899 13.1434C7.27725 13.1434 7.13172 13.0831 7.02442 12.9758C6.91712 12.8685 6.85684 12.723 6.85684 12.5713C6.85684 12.4195 6.91712 12.274 7.02442 12.1667L10.621 8.57126H2.85756C2.70601 8.57126 2.56066 8.51106 2.4535 8.4039C2.34634 8.29673 2.28613 8.15139 2.28613 7.99984C2.28613 7.84828 2.34634 7.70294 2.4535 7.59578C2.56066 7.48861 2.70601 7.42841 2.85756 7.42841H10.621L7.02442 3.83298C6.9712 3.7799 6.92898 3.71684 6.90018 3.64742C6.87137 3.57799 6.85654 3.50357 6.85654 3.42841C6.85654 3.35324 6.87137 3.27882 6.90018 3.2094C6.92898 3.13997 6.9712 3.07692 7.02442 3.02384Z" />
+                                    </svg></a>
+                            </header>
+                            <div class="products__body slider">
+                                <div class="products__list swiper-wrapper">
+                                    <a href="./product.html" class="card-product swiper-slide">
+                                        <div class="card-product__img">
+                                            <img src="/assets/img/skirt1.webp" alt="product" loading="lazy">
+        
+                                        </div>
+                                        <div class="card-product__descr">
+                                            <div class="card-product__name">Юбка</div>
+                                            <div class="card-product__prices">
+                                                <span class="card-product__price-current">19 700</span>
+                                                
+                                            </div>
+                                        </div>
+                                       
+                                    </a>
+                                    <a href="./product.html" class="card-product swiper-slide">
+                                        <div class="card-product__img">
+                                            <img src="/assets/img/skirt2.webp" alt="product" loading="lazy">
+        
+                                        </div>
+                                        <div class="card-product__descr">
+                                            <div class="card-product__name">Юбка</div>
+                                            <div class="card-product__prices">
+                                                <span class="card-product__price-current">19 700</span>
+                                                
+                                            </div>
+                                        </div>
+                                        
+                                    </a>
+                                    <a href="./product.html" class="card-product swiper-slide">
+                                        <div class="card-product__img">
+                                            <img src="/assets/img/skirt3.webp" alt="product" loading="lazy">
+        
+                                        </div>
+                                        <div class="card-product__descr">
+                                            <div class="card-product__name">Юбка</div>
+                                            <div class="card-product__prices">
+                                                <span class="card-product__price-current">19 700</span>
+                                                
+                                            </div>
+                                        </div>
+                                        
+                                    </a>
+                                    <a href="./product.html" class="card-product swiper-slide">
+                                        <div class="card-product__img">
+                                            <img src="/assets/img/skirt4.webp" alt="product" loading="lazy">
+                                        </div>
+                                        <span class="card-product__label">sale -41%</span>
+                                        <div class="card-product__descr">
+                                            <div class="card-product__name">Юбка</div>
+                                            <div class="card-product__prices">
+                                                <span class="card-product__price-current">307 777</span>
+                                                <span class="card-product__price-old ">489 777</span>
+                                            </div>
+                                        </div>
+                                       
+                                    </a>
+                                </div>  
+                                <img src="/assets/img/Liquid_14.webp" alt="" class="products__img-back">  
+                            </div>
+                            
+                        </div>
+                    </div>
+                </section>
+           </div>
+    
+        </main>
+    
+     <!-- подвал -->
+     <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer__logo">
+                    <a href="/">
+                        <img src="/assets/img/Logo.svg" alt="logo">
+                    </a>
+                </div>
+                <div class="footer__requisites">
+                    <p>ИП Долгова Марина Витальевна</p>
+                    <p>ОГРН: 323774600567309</p>
+                </div>
+                <nav class="footer__menu">
+                    <ul class="second-menu">
+                        <li class="arrow"><a href="./world.html">мир бренда</a>
+                            <ul class="second-submenu">
+                                <li><a href="./world.html">мир MAARE</a></li>
+                                <li><a href="./privilege.html">преимущества</a></li>
+                                <li><a href="./delivery.html">доставка</a></li>
+                                <li><a href="./community.html">наше комьюнити</a></li>
+                                <li><a href="./collab.html">collections</a></li>
+                            </ul>
+                            
+                        </li>
+                        <li><a href="./looks.html">готовые образы</a></li>
+                        <li class="arrow"><a href="./catalog.html">каталог</a>
+                            <ul class="second-submenu">
+                                <li><a href="./catalog.html">Новинки</a></li>
+                                <li><a href="./catalog.html">жакеты</a></li>
+                                <li><a href="./catalog.html">блузки</a></li>
+                                <li><a href="./catalog.html">брюки</a></li>
+                                <li><a href="./catalog.html">Платья</a></li>
+                                <li><a href="./catalog.html">юбки</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="footer__contacts">
+                    <div class="footer__contacts-title">контакты:</div>
+                    <div class="footer__contacts-phone"><a href="tel:+74955103066">8 495 510 30 66</a></div>
+                    <div class="footer__contats-mail"><a href="mailto:info@maaree.ru">info@maaree.ru</a></div>
+                    <div class="footer__social">
+                        <a class="social" href="#">
+                            <svg class="vk" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 32 32" fill="none">
+                                <path d="M16.6019 23.8048C8.05327 23.8048 3.17906 17.9557 2.9791 8.20732H7.27839C7.41587 15.3562 10.5654 18.3807 13.0649 19.0056V8.20732H17.1018V14.3688C19.5639 14.1064 22.1635 11.2943 23.0383 8.19482H27.0627C26.7345 9.79927 26.079 11.3188 25.1372 12.6585C24.1953 13.9982 22.9873 15.1293 21.5886 15.9811C23.1495 16.758 24.5279 17.8569 25.6331 19.2055C26.7382 20.5541 27.5449 22.1216 28 23.8048H23.5632C22.6134 20.8428 20.2388 18.5431 17.1018 18.2307V23.8048H16.6144H16.6019Z" />
+                            </svg></a>
+                        <a class="social" href="#">
+                            <svg class="tg" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 32 32" fill="none">
+                                <path d="M7.0888 14.8719C12.3478 12.5806 15.8546 11.0701 17.6092 10.3403C22.6191 8.25649 23.6601 7.89452 24.3386 7.88244C24.4879 7.87994 24.8215 7.91692 25.0377 8.0923C25.2202 8.24039 25.2704 8.44044 25.2944 8.58085C25.3184 8.72125 25.3484 9.0411 25.3246 9.29102C25.0531 12.1435 23.8784 19.0659 23.2807 22.2608C23.0279 23.6126 22.5299 24.0659 22.0479 24.1103C21.0003 24.2067 20.2048 23.4179 19.1901 22.7528C17.6024 21.712 16.7054 21.0641 15.1642 20.0485C13.3831 18.8748 14.5377 18.2297 15.5528 17.1754C15.8184 16.8995 20.4342 12.7011 20.5235 12.3203C20.5347 12.2726 20.5451 12.0951 20.4396 12.0013C20.3341 11.9076 20.1784 11.9396 20.0661 11.9651C19.9069 12.0013 17.3704 13.6778 12.4568 16.9946C11.7368 17.489 11.0847 17.7299 10.5004 17.7172C9.85632 17.7033 8.6173 17.353 7.69621 17.0536C6.56646 16.6864 5.66856 16.4922 5.74675 15.8686C5.78748 15.5437 6.23483 15.2115 7.0888 14.8719Z" />
+                            </svg></a>
+                        <a class="social" href="#">
+                            <svg class="tiktok" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 20 23" fill="none">
+                                <g clip-path="url(#clip0_419_1860)">
+                                <path d="M16.8141 4.54291C15.5932 3.74687 14.7122 2.47276 14.4374 0.98843C14.378 0.667815 14.345 0.337524 14.345 -0.000244141H10.4484L10.4418 15.6167C10.3767 17.3658 8.93721 18.7692 7.17273 18.7692C6.62429 18.7692 6.10797 18.6324 5.65321 18.3927C4.61044 17.8443 3.89664 16.7514 3.89664 15.494C3.89664 13.6877 5.36646 12.2179 7.17229 12.2179C7.50962 12.2179 7.83287 12.2737 8.13853 12.3692V8.39117C7.82187 8.34763 7.50038 8.32125 7.17229 8.32125C3.21759 8.32125 0 11.5384 0 15.494C0 17.9204 1.21209 20.0679 3.06234 21.3662C4.22693 22.1847 5.64442 22.6663 7.17273 22.6663C11.1279 22.6663 14.345 19.4487 14.345 15.494V7.57446C15.8733 8.67133 17.746 9.31784 19.7669 9.31784V5.42075C18.6784 5.42075 17.6646 5.0975 16.8141 4.54291Z" />
+                                </g>
+                                <defs>
+                                <clipPath id="clip0_419_1860">
+                                <rect width="19.7669" height="22.6665" fill="white" transform="translate(0 -0.000244141)"/>
+                                </clipPath>
+                                </defs>
+                            </svg></a>
+                        <a class="social" href="#">
+                            <svg class="tt" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+                                <path d="M15.5998 7.18865C18.3211 7.18865 18.6922 7.18865 19.8054 7.18865C20.795 7.18865 21.2897 7.43604 21.6608 7.55973C22.1556 7.80712 22.5267 7.93081 22.8977 8.30189C23.2688 8.67297 23.5162 9.04405 23.6399 9.53882C23.7636 9.9099 23.8873 10.4047 24.011 11.3942C24.011 12.5075 24.011 12.7548 24.011 15.5998C24.011 18.4447 24.011 18.6921 24.011 19.8054C24.011 20.7949 23.7636 21.2897 23.6399 21.6608C23.3925 22.1555 23.2688 22.5266 22.8977 22.8977C22.5267 23.2688 22.1556 23.5162 21.6608 23.6398C21.2897 23.7635 20.795 23.8872 19.8054 24.0109C18.6922 24.0109 18.4448 24.0109 15.5998 24.0109C12.7549 24.0109 12.5075 24.0109 11.3943 24.0109C10.4047 24.0109 9.90996 23.7635 9.53888 23.6398C9.04411 23.3925 8.67303 23.2688 8.30195 22.8977C7.93087 22.5266 7.68348 22.1555 7.55979 21.6608C7.4361 21.2897 7.3124 20.7949 7.18871 19.8054C7.18871 18.6921 7.18871 18.4447 7.18871 15.5998C7.18871 12.7548 7.18871 12.5075 7.18871 11.3942C7.18871 10.4047 7.4361 9.9099 7.55979 9.53882C7.80718 9.04405 7.93087 8.67297 8.30195 8.30189C8.67303 7.93081 9.04411 7.68342 9.53888 7.55973C9.90996 7.43604 10.4047 7.31234 11.3943 7.18865C12.5075 7.18865 12.8786 7.18865 15.5998 7.18865ZM15.5998 5.33325C12.7549 5.33325 12.5075 5.33325 11.3943 5.33325C10.281 5.33325 9.53888 5.58064 8.92042 5.82803C8.30195 6.07541 7.68348 6.44649 7.06502 7.06496C6.44655 7.68342 6.19917 8.1782 5.82809 8.92036C5.5807 9.53882 5.45701 10.281 5.33331 11.3942C5.33331 12.5075 5.33331 12.8785 5.33331 15.5998C5.33331 18.4447 5.33331 18.6921 5.33331 19.8054C5.33331 20.9186 5.5807 21.6608 5.82809 22.2792C6.07547 22.8977 6.44655 23.5162 7.06502 24.1346C7.68348 24.7531 8.17826 25.0005 8.92042 25.3716C9.53888 25.6189 10.281 25.7426 11.3943 25.8663C12.5075 25.8663 12.8786 25.8663 15.5998 25.8663C18.3211 25.8663 18.6922 25.8663 19.8054 25.8663C20.9187 25.8663 21.6608 25.6189 22.2793 25.3716C22.8977 25.1242 23.5162 24.7531 24.1347 24.1346C24.7531 23.5162 25.0005 23.0214 25.3716 22.2792C25.619 21.6608 25.7427 20.9186 25.8664 19.8054C25.8664 18.6921 25.8664 18.321 25.8664 15.5998C25.8664 12.8785 25.8664 12.5075 25.8664 11.3942C25.8664 10.281 25.619 9.53882 25.3716 8.92036C25.1242 8.30189 24.7531 7.68342 24.1347 7.06496C23.5162 6.44649 23.0214 6.19911 22.2793 5.82803C21.6608 5.58064 20.9187 5.45695 19.8054 5.33325C18.6922 5.33325 18.4448 5.33325 15.5998 5.33325Z" />
+                                <path d="M15.5998 10.281C12.6312 10.281 10.281 12.6312 10.281 15.5998C10.281 18.5684 12.6312 20.9186 15.5998 20.9186C18.5685 20.9186 20.9187 18.5684 20.9187 15.5998C20.9187 12.6312 18.5685 10.281 15.5998 10.281ZM15.5998 19.0632C13.7445 19.0632 12.1364 17.5789 12.1364 15.5998C12.1364 13.7444 13.6208 12.1364 15.5998 12.1364C17.4552 12.1364 19.0633 13.6207 19.0633 15.5998C19.0633 17.4552 17.4552 19.0632 15.5998 19.0632Z" />
+                                <path d="M21.0424 11.3942C21.7255 11.3942 22.2793 10.8404 22.2793 10.1573C22.2793 9.47415 21.7255 8.92036 21.0424 8.92036C20.3592 8.92036 19.8054 9.47415 19.8054 10.1573C19.8054 10.8404 20.3592 11.3942 21.0424 11.3942Z" />
+                            </svg></a>
+
+                    </div>  
+                </div>
+                <div class="footer__policy"><a href="#">Политика конфиденциальности</a></div>
+                <div class="footer__made">
+                    <span class="footer__made-mobile">© АО «MARE», 2023</span>
+                    <span>Сделано в</span>
+                    <img src="/assets/img/logo_m416.svg" alt="m416">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- /подвал -->
+    </div>
+
+    
+</body>
+</html>
